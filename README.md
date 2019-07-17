@@ -12,3 +12,6 @@ Instalar dependencias
 
 ### `node server.js`
 Para ejecutar el proyecto
+
+### `npm run test`
+Para ejecutar pruebas unitarias
