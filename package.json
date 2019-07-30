@@ -11,5 +11,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
