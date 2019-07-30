@@ -4,7 +4,9 @@
   "description": "API para manejar activos fijos",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    ​"lint"​: ​"eslint . && prettier-eslint --list-different **/*.js"​, 
+    "format"​: ​"prettier-eslint --write **/*.js"​
   },
   "author": "byleto",
   "license": "ISC",
@@ -15,6 +17,7 @@
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-jest": "^22.14.0",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "prettier-eslint-cli": "^5.0.0"
   }
 }
