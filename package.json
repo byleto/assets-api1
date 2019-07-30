@@ -13,6 +13,7 @@
     "sqlite3": "^4.0.9"
   },
   "devDependencies": {
+    "eslint": "^6.1.0",
     "jest": "^24.8.0"
   }
 }
